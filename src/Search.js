@@ -19,12 +19,16 @@ export default function Search(props) {
 		});
 	}
 
-	function submitting(event) {
-		event.preventDefault();
+	function search() {
 		let apiKey = `640c47110d9c3fa96e9fd6063e6e2e9f`;
 		let units = `metric`;
 		let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
 		axios.get(apiURL).then(weather);
+	}
+
+	function submitting(event) {
+		event.preventDefault();
+		search();
 	}
 
 	function cityname(event) {
@@ -46,6 +50,7 @@ export default function Search(props) {
 			</div>
 		);
 	} else {
+		search();
 		return form;
 	}
 }
