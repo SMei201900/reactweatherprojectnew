@@ -8,7 +8,7 @@ export default function App() {
 			<div className="gradient">
 				<h1>Weather App</h1>
 				<br />
-				<Search />
+				<Search defaultCity="New York" />
 				<br />
 				<Credits />
 			</div>

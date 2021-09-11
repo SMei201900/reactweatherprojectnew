@@ -14,3 +14,19 @@ h1 {
 	text-align: center;
 	color: white;
 }
+
+h2 {
+	color: #fcae1e;
+}
+
+.col-4 {
+	color: #f984ef;
+	font-size: 20px;
+}
+
+.btn-primary {
+	font-weight: bold;
+	margin-left: 10px;
+	padding: 8px;
+	border-radius: 10px;
+}
