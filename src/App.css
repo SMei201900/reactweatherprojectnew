@@ -1,11 +1,20 @@
 body {
-	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	background: linear-gradient(
+		110.5deg,
+		rgba(248, 196, 249, 0.66) 22.8%,
+		rgba(253, 122, 4, 0.15) 64.6%
+	);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gradient {
 	margin: 50px;
-	background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+	background-image: linear-gradient(
+		to top,
+		#d5dee7 0%,
+		#ffafbd 0%,
+		#c9ffbf 100%
+	);
 	padding: 50px;
 	border-radius: 20px;
 }
