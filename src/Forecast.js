@@ -23,6 +23,7 @@ export default function Forecast(props) {
 						<span>MIN°C</span>
 					</div>
 				</div>
+				<div className="col-2">
 					<div>Wednesday</div>
 					<p>third image</p>
 					<div>
