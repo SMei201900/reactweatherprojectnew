@@ -12,7 +12,7 @@ export default function WeatherInfo(props) {
 				</div>
 				<div className="col-4">
 					<div className="text-capitalize"> {props.data.description} </div>
-					<div class="clearfix">
+					<div className="clearfix">
 						{" "}
 						<img src={props.data.icon} alt={props.data.description} />{" "}
 					</div>

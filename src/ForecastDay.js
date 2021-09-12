@@ -16,7 +16,7 @@ export default function ForecastDay(props) {
 	return (
 		<div className="ForecastDay">
 			<div>{day()}</div>
-			<div class="clearfix">
+			<div className="clearfix">
 				<img src={props.data.weather[0].icon} alt="i tried" />
 			</div>{" "}
 			<div>
