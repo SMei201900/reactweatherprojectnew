@@ -12,9 +12,7 @@
 }
 
 .forecastTemp {
+	font-weight: bold;
 	margin-top: 10px;
-}
-
-.maxtemp {
-	color: #1cac78;
+	color: #71bc78;
 }
