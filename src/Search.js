@@ -17,6 +17,7 @@ export default function Search(props) {
 			humidity: response.data.main.humidity,
 			windSpeed: response.data.wind.speed,
 			date: new Date(response.data.dt * 1000),
+			coordinates: response.data.coord,
 		});
 	}
 
@@ -48,7 +49,7 @@ export default function Search(props) {
 			<div className="Search">
 				<div>{form}</div>
 				<WeatherInfo data={weatherData} />
-				<Forecast />
+				<Forecast coordinates={weatherData.coordinates} />
 			</div>
 		);
 	} else {
