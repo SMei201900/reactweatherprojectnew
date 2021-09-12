@@ -24,7 +24,7 @@ export default function Credits() {
 				and{" "}
 				<a
 					className="hostSite"
-					href="https://condescending-swartz-356e87.netlify.app/"
+					href="https://tender-lamarr-313c75.netlify.app"
 					target="_blank"
 					rel="noreferrer"
 				>
